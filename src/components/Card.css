@@ -1,0 +1,64 @@
+
+/* Card.css */
+.card-wrapper {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.card-wrapper:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-top {
+    height: 10px;
+}
+
+.task-holder {
+    padding: 20px;
+    position: relative;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+}
+
+.card-title > input {
+    margin: "10px" 
+}
+
+.card-header {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    flex-grow: 1;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+}
+
+.btn {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.btn:hover {
+    color: #555;
+}
